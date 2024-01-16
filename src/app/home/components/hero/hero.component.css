@@ -51,7 +51,7 @@
   .hero-section {
 
     background-image: url("/assets/home/tablet/image-header.jpg");
-    padding: 15rem 0;
+    padding: 13rem 0;
   }
 
   .hero-content {
@@ -74,6 +74,7 @@
     justify-content: start;
     align-items: center;
     padding: 8rem 3rem;
+    background-color: #191919;
 
   }
 
@@ -103,6 +104,7 @@
     background: transparent;
     object-fit: cover;
     object-position: center;
+    width: 100%;
   }
 
 
