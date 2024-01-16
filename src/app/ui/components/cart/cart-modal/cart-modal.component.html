@@ -1,0 +1,11 @@
+<aside class="overlay" *ngIf="cartOpen"></aside>
+<section class="cart-modal" *ngIf="cartOpen" [@fadeInOut]>
+  <div class="checkout-content-container">
+    <div class="checkout-header">
+      <h5> Cart ({{ cartItems.length }})</h5>
+      <p class="remove-all"> Remove all </p>
+    </div>
+    <app-cart-list [cartItems]="cartItems"></app-cart-list>
+  </div>
+</section>
+

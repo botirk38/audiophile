@@ -1,0 +1,11 @@
+<div class="item-content">
+  <picture>
+    <img [src]="imageUrl" />
+  </picture>
+  <div class="model-info">
+    <h6>{{ title }}</h6>
+    <p>$ {{ price }}</p>
+  </div>
+  <app-quantity-counter [quantity]="quantity"></app-quantity-counter>
+</div>
+

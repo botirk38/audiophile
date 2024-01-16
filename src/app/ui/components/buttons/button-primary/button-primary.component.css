@@ -1,0 +1,16 @@
+
+
+.primary-btn {
+
+  background-color: var(--light-brown);
+  padding: 1.5rem;
+  width: 12rem;
+  height: 3rem;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+
+}

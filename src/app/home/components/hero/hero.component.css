@@ -1,0 +1,114 @@
+.hero-section {
+
+  background-color: var(--black);
+  background-image: url("/assets/home/mobile/image-header.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  padding: 9rem 0;
+
+}
+
+.hero-content {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 4rem;
+  text-align: center;
+
+}
+
+.product-header {
+
+  color: var(--blackish-gray);
+
+}
+
+.hero-title {
+
+  color: white;
+
+}
+
+.hero-text {
+
+  color: var(--grey);
+}
+
+.hero-img {
+
+  display: none;
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+
+  .hero-section {
+
+    background-image: url("/assets/home/tablet/image-header.jpg");
+    padding: 15rem 0;
+  }
+
+  .hero-content {
+    text-wrap: wrap;
+    padding: 0 10rem;
+
+  }
+
+
+
+
+}
+
+@media screen and (min-width: 1024px) {
+
+  .hero-section {
+
+    background-image: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8rem 3rem;
+
+  }
+
+
+  .hero-content {
+
+    padding: 0 5rem;
+    text-align: start;
+    justify-content: center;
+    align-items: start;
+
+
+  }
+
+  .hero-img {
+
+
+    display: block;
+    width: 100%;
+
+
+  }
+
+
+  .hero-img > img {
+
+    background: transparent;
+    object-fit: cover;
+    object-position: center;
+  }
+
+
+
+
+
+}
+
+
